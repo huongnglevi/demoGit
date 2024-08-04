@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-image: url(ảnh_layout3/baner2.png);
+    height: 170px;
+    background-size: 100% 100%;
+}
+nav{
+    background-color:green;
+    /* text-align: center; */   
+    
+}
+nav input button{
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px  30px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav input{
+    margin: 10px 0px;
+    height: 25px;
+    width: 300px;
+}
+nav button{
+    background-color: black;
+    width: 120px;
+    height: 25px;
+    color: white;
+    text-transform: uppercase;  
+}
+aside{
+    margin-top: 10px;
+    background-image: url(ảnh_layout3/ảnh\ trong\ menu.jpg);
+    height: 350px;
+    background-size: 100% 100%;
+}
+article h2{
+    text-transform: uppercase;
+    color:green;
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.prod{
+    border: 2px solid gray;
+    text-align: center;
+}
+.nd{
+    color: green;
+    font-weight: bold;
+    padding: 0px 43px;
+    text-align: left;
+    font-size: 20px;
+}
+.image img{
+    width: 75%;
+    height: 60%;
+}
+.coment{
+    padding: 15px 43px;
+    text-align: left;
+}
+.items2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+footer{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 25px;
+}
